@@ -5,7 +5,7 @@ const employeeRouter = require("./routes/employee")
 const auth = require("./middleware/auth")
 const app = express()
 
-const mongoAtlasUri = ""
+const mongoAtlasUri = "mongodb+srv://ThunderMaster:Pass123@cluster0.phfivi1.mongodb.net/Assignment1?retryWrites=true&w=majority"
 
 app.use(express.json())
 
